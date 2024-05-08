@@ -1,0 +1,320 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+/* header section start */
+a{
+    color:#fff;
+    text-decoration: none;
+}
+header{
+    width:100%;
+    height:80px;
+    color:#fff;
+    background-color: #131E3A;
+    display:flex;
+    padding:0px 125px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+header ul li{
+    margin-right: 10px;
+    display:inline-block;
+    
+}
+header ul li a{
+    font-weight: 600;
+}
+header ul li a.active{
+    color:#ff4f7b;
+}
+/* header section start */
+
+/* banner section start */
+
+.banner{
+    color:#fff;
+    width:100%;
+    height:600px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/44202281-city-56280-1767207b463.jpg);
+    background-size: cover;
+    padding:0px 125px;
+    position:relative;
+
+}
+.banner h1{
+    font-size: 50px;
+    position:absolute;
+    top:130px;
+    font-weight: 100;   
+}
+.banner h2{
+    position:absolute;
+    top:260px;
+    font-size: 30px;
+    
+}
+.banner form{
+    position:absolute;
+    width:85%;
+    height:100px;
+    display:flex;
+    align-items: center;
+    padding:2px 10px;
+    bottom:10px;
+    background-color: #5C327A;
+
+}
+
+.banner form button{
+    width:90px;
+    height:30px;
+    border:none;
+    color:#fff;
+    font-weight: 500;
+    background-color:#43215c;
+   
+
+}
+
+.banner form button.active{
+    background-color: 
+}
+.banner form label{
+    display:none;
+}
+.banner form .searchForm{
+    margin-top:8px;
+}
+
+.banner form .searchForm input, 
+.banner form .searchForm select{
+    width:200px;
+    height:35px;
+    margin-right:5px;
+}
+
+.banner form button.smt{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    margin-left:100px;
+    
+}
+/* banner section end */
+
+/* fun section start */
+
+.fun{
+    width:100%;
+    height:400px;
+    padding:50px 125px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/images\ \(1\).jpg);
+    background-size: 100% 100%;
+}
+.fun h2{
+    color:#fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.fun ul{
+    display:flex;
+    justify-content:space-between;
+}
+.fun ul li{
+    list-style: none;
+    width:150px;
+    height:130px;
+    color:#fff;
+    text-align: center;
+    padding-top:20px;
+    font-size: 50px;
+    background-color: #0e0101;
+    
+}
+.fun ul li .distance{
+    display:flex;
+    justify-content: center;
+   font-size: 15px;
+}
+
+.fun ul li .track{
+    display:block;
+    font-size:10px;
+}
+/* fun section end */
+
+/* newsletter session start */
+.subscribe{
+    width:100%;
+    height:400px;
+    color:#fff;
+    text-align: center;
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/plane2.jpg);
+    background-size: 100% 100%;
+}
+.subscribe h1{
+    padding-top:50px;
+    font-weight: 600;
+}
+.subscribe p,span{
+   padding-top:20px;
+   
+}
+.subscribe label{
+    display:block;
+}
+.subscribe #email{
+    width:30%;
+    height:35px;
+    margin-top:20px;
+}
+.subscribe button{
+    width:10%;
+    height:35px;
+    
+}
+/* newsletter session end */
+
+/* destination section start */
+.destination{
+    width:100%;
+    height:auto;
+    color:#fff;
+    padding:50px 125px;
+    background-color: #20162F;
+}
+
+.destination h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.destination ul {
+    display:grid;
+    grid-template-columns:20% 20% 20% 20%;
+    grid-template-rows: 350px 350px ;
+    grid-gap:30px 60px;
+}
+.destination ul li{
+    
+    list-style: none;
+    border:5px solid #fff;
+    text-align: center;
+    background: #fff;
+    border-radius: 5px;
+
+}
+.destination ul li img{
+    width:100%;
+
+}
+.destination ul li div.content{
+    color:#000;
+    padding:10px;
+    justify-content: ;
+}
+div.content span{
+    color:#ff6500;
+}
+
+/* destination section end */
+
+
+/* estimation section start */
+
+.estimate{
+    width:100%;
+    height:auto;
+    position:relative;
+    padding:50px 125px;
+    background-color: #664CAd;
+}
+
+.estimate label{
+    display:none;
+}
+
+.estimate h2{
+    text-align: center;
+}
+.estimate form{
+  padding-top:10px;  
+}
+.estimate img{
+    width:200px;
+    height:170px;
+    position:absolute;
+    bottom:0;
+    right:0;
+
+
+}
+
+/* estimation section end */
+
+
+/* blog section start */
+.blog{
+    width:100%;
+    height:auto;
+    padding:50px 125px;
+
+}
+
+.blog h2{
+    color:#000;
+    margin-bottom: 10px;
+}
+
+.blog h2{
+    text-align: center;
+    
+}
+
+.blog img{
+    width:200px;
+    height:200px;
+    padding:20px 0px;
+}
+.blog .content{
+    display:flex;
+}
+/* blog section end */
+
+
+/* footer section start */
+
+footer{
+    width:100%;
+    height:auto;
+    display:flex;
+    justify-content: space-between;
+    padding:50px 125px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+footer h3{
+    color:#918E97;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 9px;
+}
+
+ footer ul li{
+    list-style: none;
+
+
+}
+footer ul li a{
+    color:#918E97;
+}
+
+footer ul li a span{
+    color:#fff;
+    font-weight: 400;
+
+}
+/* footer section end */
